@@ -1,5 +1,10 @@
 body {
     background: url(https://image.freepik.com/free-psd/white-wood-texture-background-design_1022-75.jpg);
+    
+}
+
+a {
+    color: "#777777"
 }
 
 .wrapper1 {
@@ -88,19 +93,26 @@ body {
     margin: 5px;
     background-color: #ffffff;
     display: block;
+    align-items:center;
     
 }
 
 .Git {
-
+    padding: 20px;
+    margin: 2px;
+    float: left;
 }
 
 .LinkdIn {
-
+    padding: 20px;
+    margin: 2px;
+    float: left;
 }
 
 .SlackOverflow {
-
+    padding: 20px;
+    margin: 2px;
+    float: left;
 }
 
 .columns:after{
@@ -132,23 +144,26 @@ body {
     clear: both;
     }
 
+
 .portcon {
-    height: 450px;
+    height: 520px;
     display: block;
     margin-left: 100px; 
+    margin-bottom: 30px
+
 } 
 
 .port2 {
     float: left;
     color: #4aaaa5;
     margin-left: 200px;
+    margin-bottom: 100px;
     width: 650px;
-    height: 475px;
+    height: 510px;
     padding: 7px;
     margin: 7px;
     background-color: #ffffff;
     display: block; 
-    position: relative;
     
 }
 
@@ -158,6 +173,8 @@ body {
     size: 300px;
     position: relative;
     text-align: center;
+    align-items:center;
+    padding: 1px;
     
 }
 
@@ -167,6 +184,7 @@ body {
     size: 300px;
     position: relative;
     text-align: center;
+    padding: 1px;
 }
 
 .Trivia Game {
@@ -175,6 +193,7 @@ body {
     size: 300px;
     position: relative;
     text-align: center;
+    padding: 1px;
 }
 
 .Rutgers Info Widget {
@@ -183,6 +202,7 @@ body {
     size: 300px;
     position: relative;
     text-align: center;
+    padding: 1px;
 }
 
 .Rock Paper Scissors {
@@ -191,17 +211,29 @@ body {
     size: 300px;
     position: relative;
     text-align: center;
+    padding: 1px;
 }
 
-.portcon:after {
+portcon:after {
     display: block;
     content: "";
     clear: both;  
 }
 
-.footer {
+footer {
     background-color: #666666;
     height: 30px;
+    margin-top: 60px;
     border-top: solid 2px;
     border-top-color: #4aaaa5;
+    justify-content: center;
+    text-align: center;
+    text-anchor: middle;
+    display:flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    align-items:center;
 }
